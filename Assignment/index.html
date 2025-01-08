@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Career Wala</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <!-- Header Section --> 
+    <header>
+        <nav>
+            <div class="logo">Career Wala</div>
+            <ul class="nav-links">
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#booking">Book Appointment</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+     <section id="hero" style="background: url('https://images.unsplash.com/photo-1499750310107-5fef28a66643?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') no-repeat center center/cover;">
+          <h1>Your Career Starts Here</h1>
+          <p>Book career counselling appointments online and plan your future with expert guidence.</p>
+          <a href="#booking" class="btn">Book Now</a>
+     </section>
+
+     <!--services section -->
+     <section id="services"> 
+        <h2>Our Services</h2>
+        <div class="services-container">
+            <div class="service">
+                <img src="https://images.unsplash.com/photo-1557425529-b1ae9c141e7d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Career Counselling">
+                <h3>Career counselling</h3>
+                <p>Personalized sessions to explore your strengths and interests.</p>
+            </div>
+            <div class="service">
+                <img src="https://images.unsplash.com/photo-1587613754760-cd9a285831b3?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Skill Assessment">
+                <h3>Skill Assessment</h3>
+                <p>Comprehensive skill tests to match you with suitable careers.</p>
+            </div>
+            <div class="service">
+                <img src="https://plus.unsplash.com/premium_photo-1661384194958-20679b63484b?q=80&w=386&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Expert Guidance">
+                <h3>Expert Guidance</h3>
+                <p>Experienced counsellors to guide you at every step.</p>
+            </div>
+        </div>
+     </section>
+
+     <!-- About Section -->
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Career Wala aims to bridge the gap between students and their dream careers by offering professional counselling services.</p>
+        <img src="https://plus.unsplash.com/premium_photo-1676666379179-d35623ea3aef?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Q2FyZWVyJTIwV2FsYSUyMGFpbXMlMjB0byUyMGJyaWRnZSUyMHRoZSUyMGdhcCUyMGJldHdlZW4lMjBzdHVkZW50cyUyMGFuZCUyMHRoZWlyJTIwZHJlYW0lMjBjYXJlZXJzJTIwYnklMjBvZmZlcmluZyUyMHByb2Zlc3Npb25hbCUyMGNvdW5zZWxsaW5nJTIwc2VydmljZXN8ZW58MHx8MHx8fDA%3D" alt="About Us" style="width: 100%; height: auto; margin-top: 1rem;">
+    </section>
+
+     <!-- Booking Section -->
+     <section id="booking">
+        <h2>Book an Appointment</h2>
+        <form id="booking-form">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <label for="date">Preferred Date:</label>
+            <input type="date" id="date" name="date" required>
+
+            <label for="time">Preferred Time:</label>
+            <input type="time" id="time" name="time" required>
+
+            <label for="payment">Payment Method:</label>
+            <select id="payment" name="payment" required>
+                <option value="credit">Credit Card</option>
+                <option value="debit">Debit Card</option>
+                <option value="paypal">PayPal</option>
+                <option value="paypal">Razorpay</option>
+            </select>
+
+            <button type="submit" class="btn">Submit</button>
+        </form>
+    </section>
+
+     <!-- Payment Section -->
+     <section id="booking">
+        <h2>Make a Payment</h2>
+        <form id="paymentForm">
+            <label for="amount">Amount:</label>
+            <input type="number" id="amount" name="amount" placeholder="Enter amount (INR)" required>
+
+            <label for="cardDetails">Card Details:</label>
+            <input type="text" id="cardDetails" name="cardDetails" placeholder="Card Number" required>
+
+            <label for="expiry">Expiry Date:</label>
+            <input type="month" id="expiry" name="expiry" required>
+
+            <label for="cvv">CVV:</label>
+            <input type="password" id="cvv" name="cvv" maxlength="3" required>
+
+            <button type="submit" class="btn">Pay Now</button>
+        </form>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: anupriya@careerwala.com</p>
+        <p>Phone: +1 234 567 890</p>
+        <p>Address: 123 Career Street, Hyderabad City</p>
+    </section>
+
+    <!-- Footer Section -->
+    <footer >
+        <p>&copy; 2024 Career Wala. All rights reserved.</p>
+    </footer>
+
+    <script>
+        document.getElementById('booking-form').addEventListener('submit', function(event) {
+    event.preventDefault();
+
+    // Get form values
+    const name = document.getElementById('name').value;
+    const email = document.getElementById('email').value;
+
+    // Simple validation
+    if (!name || !email) {
+        alert('Please fill in all required fields!');
+        return;
+    }
+
+    alert(`Thank you, ${name}! Your appointment is booked. A confirmation email has been sent to ${email}.`);
+});
+// Payment Form Submission
+document.getElementById('paymentForm').addEventListener('submit', function (e) {
+    e.preventDefault();
+    alert('Payment processed successfully!');
+});
+    </script>
+</body>
+</html>
