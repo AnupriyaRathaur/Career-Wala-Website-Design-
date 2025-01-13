@@ -1,6 +1,8 @@
 # Career-Wala-Website-Design-
 ![Screenshot 2025-01-08 162456](https://github.com/user-attachments/assets/d5427add-4047-4881-8c7b-3f6afbfea796)
 
+https://magenta-swan-0f286f.netlify.app/
+
 
 Objective:
 Design a user-friendly, responsive website for "Career Wala" that enables students and parents to book career counselling appointments and make payments online.
